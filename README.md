@@ -1,1 +1,1 @@
-# dev-setup-for-mac
+# iterm2 - zsh config
