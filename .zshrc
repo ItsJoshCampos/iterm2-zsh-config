@@ -4,7 +4,7 @@
 DEFAULT_USER=`whoami`
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/joshcampos/.oh-my-zsh
+export ZSH=/Users/<Fill in username>/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# NODE and NPM PATHs
+# NODE and NPM PATHs-custom path to avoid SUDO
 export PATH="$HOME/.npm-packages/bin:$PATH"
 
 
@@ -108,7 +108,7 @@ export TTC_BOTS='tinycarebot,selfcare_bot,magicrealismbot'
 export TTC_SAY_BOX='ironman'
 
 # List of folders to look into for `git` commits, comma separated.
-export TTC_REPOS='~/CWDV_DTSC,~/TestCode'
+export TTC_REPOS='/Users/<Fill in path>'
 
 # The max directory-depth to look for git repositories in
 # the directories defined with `TTC_REPOS`. Note that the deeper
@@ -123,7 +123,7 @@ export TTC_GITBOT='gitlog'
 # Location/zip code to check the weather for. Both 90210 and "San Francisco, CA"
 # _should_ be ok (the zip code doesn't always work -- use a location
 # first, if you can). It's using weather.service.msn.com behind the curtains.
-export TTC_WEATHER='79938'
+export TTC_WEATHER='<fill in zip>'
 
 # Set to false if you're an imperial lover <3
 export TTC_CELSIUS=false
@@ -143,15 +143,6 @@ export TTC_CONSUMER_KEY=''
 export TTC_CONSUMER_SECRET=''
 export TTC_ACCESS_TOKEN=''
 export TTC_ACCESS_TOKEN_SECRET=''
-
-# Note: in tiny-terminal-care < 1.0.7, the recommended variables for the Twitter
-# API keys were the ones before. As of 1.0.8, they are deprecated
-# (because the names are too generic), but will still be supported
-# until the next major version.
-# export CONSUMER_KEY='...'
-# export CONSUMER_SECRET='...'
-# export ACCESS_TOKEN='...'
-# export ACCESS_TOKEN_SECRET='...'
 
 
 
