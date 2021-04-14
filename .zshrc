@@ -146,3 +146,8 @@ export TTC_ACCESS_TOKEN_SECRET=''
 
 
 
+# .NET Core Environment 
+export ASPNETCORE_ENVIRONMENT=local
+
+# Proxy
+export ALL_PROXY=<http://proxy>
